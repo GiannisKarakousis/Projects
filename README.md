@@ -1,3 +1,3 @@
 # Java-Projects
 
-These are are just some small projects that i did in my free time, playing around.
+These are are just some small projects that i did in my free time.
