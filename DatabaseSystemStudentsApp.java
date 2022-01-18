@@ -22,7 +22,7 @@ public class DatabaseSystemStudentsApp {
         Scanner input = new Scanner(System.in);
         boolean run = true;
         String choice = "";
-        int average;
+        float average;
         
         while(run == true){
             System.out.println("***************************************************");
@@ -77,7 +77,7 @@ public class DatabaseSystemStudentsApp {
                         System.out.println("\tFather's name: " + humanList.get(i).father);
                         System.out.println("\tDate of birth: " + humanList.get(i).bday);
                         System.out.println("\tLessons: " + studentList.get(i).lesson1 + ", " + studentList.get(i).lesson2 + ", " + studentList.get(i).lesson3);
-                        average = (studentList.get(i).grade1 + studentList.get(i).grade2 + studentList.get(i).grade3) / 3;
+                        average = (float)(studentList.get(i).grade1 + studentList.get(i).grade2 + studentList.get(i).grade3) / 3.0f;
                         System.out.println("\tGrades: " + studentList.get(i).grade1 + ", " + studentList.get(i).grade2 + ", " + studentList.get(i).grade3 + ", Average grade: " + average);
                     }
                     break;
@@ -93,7 +93,7 @@ public class DatabaseSystemStudentsApp {
                             System.out.println("\tFather's name: " + humanList.get(i).father);
                             System.out.println("\tDate of birth: " + humanList.get(i).bday);
                             System.out.println("\tLessons: " + studentList.get(i).lesson1 + ", " + studentList.get(i).lesson2 + ", " + studentList.get(i).lesson3);
-                            average = (studentList.get(i).grade1 + studentList.get(i).grade2 + studentList.get(i).grade3) / 3;
+                            average = (float)(studentList.get(i).grade1 + studentList.get(i).grade2 + studentList.get(i).grade3) / 3.0f;
                             System.out.println("\tGrades: " + studentList.get(i).grade1 + ", " + studentList.get(i).grade2 + ", " + studentList.get(i).grade3 + ", Average grade: " + average);
                         }
                         System.out.println("Who do you want to delete? Give me a number");
